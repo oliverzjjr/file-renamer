@@ -1,4 +1,4 @@
-![Docker Build](https://github.com/verz-lockinin/file-renamer/actions/workflows/docker-build.yml/badge.svg)
+![Docker Build](https://github.com/oliverzjjr/file-renamer/actions/workflows/docker-build.yml/badge.svg)
 
 
 
