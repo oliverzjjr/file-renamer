@@ -56,6 +56,12 @@ docker run -v /path/to/your/folder:/data file-renamer
 
 ```
 
+## Or run it directly from Docker Hub
+
+```bash
+docker pull oliverzjjr/file-renamer
+docker run -v /path/to/your/folder:/data oliverzjjr/file-renamer
+```
 
 
 ## What I learned
