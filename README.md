@@ -1,8 +1,8 @@
-!\[Docker Build](https://github.com/verz-lockinin/file-renamer/actions/workflows/docker-build.yml/badge.svg)
+![Docker Build](https://github.com/verz-lockinin/file-renamer/actions/workflows/docker-build.yml/badge.svg)
 
 
 
-\# File Renamer
+# File Renamer
 
 
 
@@ -10,7 +10,7 @@ A Bash script, containerized with Docker, that renames every file in a target fo
 
 
 
-\## Why I built this
+## Why I built this
 
 
 
@@ -18,7 +18,7 @@ Second project in a series learning Docker fundamentals — reinforcing the core
 
 
 
-\## What it does
+## What it does
 
 
 
@@ -26,21 +26,21 @@ Given a folder of files, running the container renames each one with today's dat
 
 
 
-\## Tech used
+## Tech used
 
 
 
-\- Bash scripting (loops, variables, pattern matching, `mv`, `basename`)
+- Bash scripting (loops, variables, pattern matching, `mv`, `basename`)
 
-\- Docker (Dockerfile, volume mounts with `-v`)
+- Docker (Dockerfile, volume mounts with `-v`)
 
-\- Ubuntu base image
+- Ubuntu base image
 
-\- Git \& GitHub, GitHub Actions CI/CD
+- Git \& GitHub, GitHub Actions CI/CD
 
 
 
-\## How to run it yourself
+## How to run it yourself
 
 
 
@@ -58,13 +58,13 @@ docker run -v /path/to/your/folder:/data file-renamer
 
 
 
-\## What I learned
+## What I learned
 
 
 
-\- Volume mounts (`-v`) — letting a container access and modify real files on the host machine, unlike `COPY` which only takes a one-time snapshot at build time
+- Volume mounts (`-v`) — letting a container access and modify real files on the host machine, unlike `COPY` which only takes a one-time snapshot at build time
 
-\- Bash loops, variables, and pattern matching (`for`, `$(date ...)`, wildcard matching)
+- Bash loops, variables, and pattern matching (`for`, `$(date ...)`, wildcard matching)
 
-\- Why `.gitignore` needs to be added \*before\* the first `git add .`, not after
+- Why `.gitignore` needs to be added \*before\* the first `git add .`, not after
 
